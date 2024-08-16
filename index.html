@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Page de Connexion</title>
+</head>
+<body>
+    <h1>Veuillez vous connecter</h1>
+    <form method="get" action="/cgi-bin/get_form.cgi">
+        <label for="login">Login : </label>
+        <input type="text" id="login" name="login" required><br><br>
+        
+        <label for="mot_de_passe">Mot de passe : </label>
+        <input type="password" id="mot_de_passe" name="mot_de_passe" required><br><br>
+        
+	<div class="connexion"> 
+		<input type="submit" value="Se connecter">
+	</div>
+    </form>
+</body>
+</html>
